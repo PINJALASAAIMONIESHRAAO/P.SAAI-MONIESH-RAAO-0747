@@ -30,3 +30,11 @@ class LinkedList:
       while n.ref.ref is not None:
         n=n.ref
       n.ref=None
+
+LL1=LinkedList()
+LL1.add_begin(10)
+LL1.add_begin(20)
+LL1.add_begin(30)
+LL1.add_begin(15)
+LL1.delete_end()
+LL1.print_LL()
